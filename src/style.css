@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+body {
+  @apply m-0 h-screen w-screen overflow-hidden bg-[#f5f4f0] text-[#1a1a1a] font-sans;
+}
+
+#app {
+  @apply h-full w-full flex flex-col;
+}
